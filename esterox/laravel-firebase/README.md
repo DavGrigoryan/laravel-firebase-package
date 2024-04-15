@@ -5,7 +5,8 @@ php artisan vendor:publish --provider="Esterox\Firebase\ServiceProvider\Firebase
 ```
 
 
-use another project composer.json
+# To use in another project
+### Add the following snippet to the composer.json file
 ```
 "repositories": [
     {
@@ -18,3 +19,13 @@ use another project composer.json
     "esterox/laravel-firebase": "dev-main"
 },
 ```
+
+### After all that write the following code in terminal
+```bash
+composer install
+```
+### OR
+```bash
+composer update
+```
+    
